@@ -40,7 +40,7 @@ In other words — the project started as a tool for my Rigol, but the door is w
 
 ## 🏗️ Project Structure
 
-'''
+```
 SCPI-Web-Interface/
 ├── app.py                      # Flask backend file: Contains all API routes and instrument logic.
 ├── run.py                      # Launcher script: Finds local IP and starts the server.
@@ -56,7 +56,8 @@ SCPI-Web-Interface/
 │
 └── templates/
     └── index.html              # The main web interface structure.
-'''
+    
+```
 
 ---
 
