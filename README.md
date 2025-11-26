@@ -56,7 +56,7 @@ SCPI-Web-Interface/
 │
 └── templates/
     └── index.html              # The main web interface structure.
-    
+
 ```
 
 ---
@@ -83,6 +83,8 @@ https://www.ni.com/en/support/downloads/drivers/download.ni-visa.html
 Installed automatically with requirements.
 
 If you're not sure — install **NI-VISA**. It works out of the box for Ethernet instruments.
+
+- **Linux/macOS Users:** **No extra driver installation is required!** The application uses the pure Python **`pyvisa-py`** backend, which is automatically installed in the next step.
 
 ---
 
