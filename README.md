@@ -39,20 +39,22 @@ In other words — the project started as a tool for my Rigol, but the door is w
 ---
 
 ## 🏗️ Project Structure
+
 SCPI-Web-Interface/
-│   app.py
-│   run.py
-│   requirements.txt
-│   .gitignore
-│   README.md
-│   start.bat
+├── app.py                      # Flask backend file: Contains all API routes and instrument logic.
+├── run.py                      # Launcher script: Finds local IP and starts the server.
+├── requirements.txt            # List of required Python dependencies (Flask, PyVISA, etc.).
+├── .gitignore                  # Tells Git which temporary files to ignore (e.g., Python cache).
+├── README.md                   # Project documentation (this file).
+├── start.bat                   # Windows batch file for easy launch.
 │
 ├── static/
-│   ├── main.js
-│   └── style.css
+│   ├── main.js                 # Frontend logic, API calls, stream handling, and DOM manipulation.
+│   ├── style.css               # All custom styles for the web interface.
+│   └── screenshot_preview.png  # Image files used for the README preview.
 │
 └── templates/
-    └── index.html
+    └── index.html              # The main web interface structure.
 
 ---
 
