@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCPI Instrument Control Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    
+    <header id="fixed-header">
+        <h1>SCPI Instrument Control Panel</h1>
+    </header>
+
+    <div id="scrollable-content">
+
+        <div class="control-group">
+            <select id="device-select" title="Select the desired VISA instrument from the list." disabled></select>
+            
+            <button id="connect-button" title="Connect/Disconnect the selected instrument." onclick="toggleConnection()" class="btn-connect" disabled>
+                CONNECT
+            </button>
+        </div>
+        
+        <img id="screenshot-image" class="scope-screen" alt="The oscilloscope live stream will appear here">
+
+        <div class="control-group command-group">
+            <button id="screenshot-button" title="Capture the current screen and open the modal for viewing/printing/download." onclick="openCaptureModal()" disabled>
+                CAPTURE Screenshot
+            </button>
+            
+            <span style="border-left: 2px solid #ccc; height: 30px; margin: 0 15px;"></span>
+
+            <button onclick="sendCommand('RUN')" class="command-button btn-success" title="Resumes the acquisition (RUN)." disabled>
+                RUN
+            </button>
+            <button onclick="sendCommand('STOP')" class="command-button btn-danger" title="Stops the acquisition (STOP)." disabled>
+                STOP
+            </button>
+            <button onclick="sendCommand(':AUTOSCALE')" class="command-button btn-info" title="Performs automatic setup (AUTOSET)." disabled>
+                AUTOSCALE
+            </button>
+            <button onclick="sendCommand('*RST')" class="command-button" title="Resets the instrument to factory default settings (*RST SCPI command)." disabled>
+                RESET
+            </button>
+        </div>
+
+        </div>
+    
+    </div> <div id="app-info-section">
+        <span>Copyright &copy; 2025 by mera-system.</span>
+    </div>
+
+    <iframe id="print-frame" style="display:none;"></iframe>
+
+    <footer id="fixed-footer">
+        <div id="footer-status-box">
+            <span id="status-message">Press CONNECT to establish connection.</span>
+        </div>
+        <div id="footer-info-box">
+            <span id="device-info">Device not connected.</span>
+        </div>
+    </footer>
+    
+    <div id="image-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <span>Latest Screenshot Capture</span>
+            </div>
+            <img id="modal-image" src="" alt="Full size captured image">
+            
+            <div class="modal-footer command-group">
+                <button onclick="downloadSnapshot()" class="command-button btn-primary" title="Download the captured image to your local computer.">DOWNLOAD</button>
+                <button onclick="printSnapshot()" class="command-button btn-info" title="Print the captured image (Landscape format, color inversion).">PRINT</button>
+                <button onclick="closeModal()" class="command-button btn-cancel" title="Close the snapshot preview window.">CANCEL</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Python / Environment
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+
+# Virtual Environment (VENV)
+venv/
+.venv/
+
+# Flask session
+flask_session/
+
+# Logs / Temp files
+*.log
+tmp/
