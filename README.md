@@ -157,17 +157,37 @@ Any device that supports **SCPI commands** and can communicate over **TCP/IP** s
 
 ## 📸 Screenshot Preview
 
+#### 1. Start Flask Server
 <p align="center">
-  Start Flask server on port 5000
-  <img src="static/Start_Flask_Server.png" alt="Application Preview" width="700">
-  Select SCPI device
-  <img src="static/Select_Devices.png" alt="Application Preview" width="700">
-  Connect to SCPI device
-  <img src="static/Connect_to_Device.png" alt="Application Preview" width="700">
-  Capture screenshot from SCPI devices display
-  <img src="static/Captur_ScreenShot.png" alt="Application Preview" width="700">
-  Print screenshot B&W
-  <img src="static/Print_Screenshot.png" alt="Application Preview" width="700">
+  <img src="static/Start_Flask_Server.png" alt="Start Flask Server" width="700">
+</p>
+
+---
+
+#### 2. Select SCPI Device
+<p align="center">
+  <img src="static/Select_Devices.png" alt="Select SCPI device" width="700">
+</p>
+
+---
+
+#### 3. Connect to SCPI Device
+<p align="center">
+  <img src="static/Connect_to_Device.png" alt="Connect to SCPI device" width="700">
+</p>
+
+---
+
+#### 4. Capture Screenshot from SCPI Device Display
+<p align="center">
+  <img src="static/Captur_ScreenShot.png" alt="Capture screenshot" width="700">
+</p>
+
+---
+
+#### 5. Print Screenshot (B&W)
+<p align="center">
+  <img src="static/Print_Screenshot.png" alt="Print screenshot B&W" width="700">
 </p>
 
 ---
