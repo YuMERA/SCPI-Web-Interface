@@ -207,7 +207,19 @@ Any device that supports **SCPI commands** and can communicate over **TCP/IP** s
 
 ---
 
-## 📝 License
-MIT License — free to use, modify, or integrate into other tools.
+## 📄 License (TL;DR)
+
+This project is licensed under the **MIT License**, which means:
+
+- ✅ You can use it freely  
+- ✅ You can modify it  
+- ✅ You can distribute it  
+- ❗ You **must keep the original copyright notice**  
+- ❗ You **must keep this license** in any copy  
+- ❌ You cannot remove or change the author's name  
+- ❌ No warranty is provided (use at your own risk)
+
+Full license text is available in the [`LICENSE`](./LICENSE) file.
+
 
 
