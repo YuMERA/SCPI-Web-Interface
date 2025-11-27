@@ -4,7 +4,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/YuMERA/SCPI-Web-Interface?style=social)](https://github.com/YuMERA/SCPI-Web-Interface/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/YuMERA/SCPI-Web-Interface?style=social)](https://github.com/YuMERA/SCPI-Web-Interface/forks)
 [![GitHub Issues](https://img.shields.io/github/issues/YuMERA/SCPI-Web-Interface?color=orange)](https://github.com/YuMERA/SCPI-Web-Interface/issues)
-[![GitHub License](https://img.shields.io/github/license/YuMERA/SCPI-Web-Interface)](https://github.com/YuMERA/SCPI-Web-Interface/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/YuMERA/SCPI-Web-Interface)](https://github.com/YuMERA/SCPI-Web-Interface/LICENSE)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Backend-green)](https://flask.palletsprojects.com/)
