@@ -2,7 +2,7 @@
 *A simple web-based tool for communicating with SCPI instruments over Ethernet*
 
 [![GitHub Stars](https://img.shields.io/github/stars/YuMERA/SCPI-Web-Interface?style=social)](https://github.com/YuMERA/SCPI-Web-Interface/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/YuMERA/SCPI-Web-Interface?style=social)](https://github.com/YuMERA/SCPI-Web-Interface/forks)
+[![GitHub Forks](https://img.shields.io/github/forks/YuMERA/SCPI-Web-Interface?style=social;color=yelow)](https://github.com/YuMERA/SCPI-Web-Interface/forks)
 [![GitHub Issues](https://img.shields.io/github/issues/YuMERA/SCPI-Web-Interface?color=orange)](https://github.com/YuMERA/SCPI-Web-Interface/issues)
 [![GitHub License](https://img.shields.io/github/license/YuMERA/SCPI-Web-Interface?color=red)](https://github.com/YuMERA/SCPI-Web-Interface/blob/main/LICENSE)
 
