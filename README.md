@@ -1,13 +1,16 @@
 # **SCPI Web Interface**  
 *A simple web-based tool for communicating with SCPI instruments over Ethernet*
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue" />
-  <img src="https://img.shields.io/badge/Flask-Backend-green" />
-  <img src="https://img.shields.io/badge/PyVISA-SCPI%20Control-orange" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
-  <img src="https://img.shields.io/badge/Donate-PayPal-blue" />
-</p>
+[![GitHub Stars](https://img.shields.io/github/stars/YuMERA/SCPI-Web-Interface?style=social)](https://github.com/YuMERA/SCPI-Web-Interface/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/YuMERA/SCPI-Web-Interface?style=social)](https://github.com/YuMERA/SCPI-Web-Interface/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/YuMERA/SCPI-Web-Interface?color=orange)](https://github.com/YuMERA/SCPI-Web-Interface/issues)
+[![GitHub License](https://img.shields.io/github/license/YuMERA/SCPI-Web-Interface)](https://github.com/YuMERA/SCPI-Web-Interface/blob/main/LICENSE)
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-Backend-green)](https://flask.palletsprojects.com/)
+[![PyVISA](https://img.shields.io/badge/PyVISA-SCPI%20Control-orange)](https://pyvisa.readthedocs.io/)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue)](https://paypal.me/yumera)
+
 
 ---
 
@@ -52,7 +55,12 @@ SCPI-Web-Interface/
 ├── static/
 │   ├── main.js                 # Frontend logic, API calls, stream handling, and DOM manipulation.
 │   ├── style.css               # All custom styles for the web interface.
-│   └── screenshot_preview.png  # Image files used for the README preview.
+│   ├── favicon.ico
+│   ├── Connect_to_Device.png   # Image files used for the README preview.
+│   ├── Print_Screenshot.png
+│   ├── Select_Devices.png
+│   ├── Start_Flask_Server.png
+│   └── Captur_ScreenShot.png   
 │
 └── templates/
     └── index.html              # The main web interface structure.
